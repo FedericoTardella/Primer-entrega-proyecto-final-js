@@ -1,0 +1,130 @@
+/*Generales*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #915831;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #462A18;
+  text-align: center;
+  /*background-image: url(/assets/imagenes/fondo\ madera.jpg);*/
+}
+nav .logo {
+  max-width: 70px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  padding-inline: 20px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #462A18;
+  color: white;
+  padding: 10px;
+}
+footer .contenedorf {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  font-size: 15px;
+}
+footer .contenedorf .hijosf {
+  width: 500px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-family: Delinda Agatha;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+/*Inicio*/
+.bodyindex {
+  background-image: url(/assets/imagenes/fondo\ mate.jpg);
+  background-blend-mode: multiply;
+}
+
+.Minicio {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+}
+.Minicio .frase {
+  font-size: 70px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+.Minicio .h2inicio {
+  font-size: 40px;
+}
+.Minicio .Pinicio {
+  font-size: 30px;
+  padding: 5px;
+}
+.Minicio .mate {
+  width: 100%;
+}
+
+/*Productos*/
+.Mproductos {
+  margin-top: 40px;
+  color: white;
+  text-align: center;
+}
+.Mproductos .titulosproductos {
+  font-size: 35px;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+.Mproductos .contenedor {
+  width: 100%;
+  max-width: 1500px;
+  height: 440px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.Mproductos .contenedor .tarjeta {
+  width: 330px;
+  height: 440px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgb(255, 255, 255);
+  margin: 20px;
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  background-color: rgb(155, 153, 153);
+  color: black;
+}
+.Mproductos .contenedor .productot {
+  max-width: 330px;
+}/*# sourceMappingURL=style.css.map */
