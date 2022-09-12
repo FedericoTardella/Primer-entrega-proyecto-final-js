@@ -103,3 +103,7 @@ return valor
 let valorDescuento = calcularDescuento(precioFinal)
 alert ('El precio final de la compra realizada es de: $' + valorDescuento)
 
+const parrafo = document.createElement ('h1')
+parrafo.innerText = "Gracias por elegirnos"
+const div = document.getElementById ('divp')
+div.append (parrafo)

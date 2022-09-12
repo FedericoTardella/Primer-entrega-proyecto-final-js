@@ -1,0 +1,91 @@
+<main class="Mproductos">
+    <h2>¡Estos son nuestros productos!</h2>
+    <p class="titulosproductos">Mates, termos y bombillas</p>
+    <div class="contenedor">
+        <div class="tarjeta">
+            <img class="productot" src="/assets/imagenes/mateacero.jpeg" alt="">
+            <h4>Mate Stanley</h4>
+            <p>Mate Stanley de acero inoxidable</p>
+            <p>No Incluye Bombilla</p>
+            <p>$11500</p>
+            <input type="checkbox"><label for="agregar al carrito">Agregar al carrito</label>
+        </div>
+        <div class="tarjeta">
+            <img class="productot" src="/assets/imagenes/matecalabaza.png" alt="">
+            <h4>Mate Calabaza</h4>
+            <p>Mate de calabaza, con borde de acero inoxidable</p>
+            <p>No Incluye Bombilla</p>
+            <p>$9500</p>
+            <input type="checkbox"><label for="agregar al carrito">Agregar al carrito</label>
+        </div>
+        <div class="tarjeta">
+            <img class="productot" src="/assets/imagenes/mateplastico.jpg" alt="">
+            <h4>Mate Plastico</h4>
+            <p>Mate de plastico duro de colores, con sistema autolimpiante con bombilla de alumino</p>
+            <p>$700</p>
+            <input type="checkbox"><label for="agregar al carrito">Agregar al carrito</label>
+        </div>
+        <div class="tarjeta">
+            <img class="productot" src="/assets/imagenes/mate auto.jpg" alt="">
+            <h4>Mate Autocebante</h4>
+            <p>Mate Autocebante de plastico de 500ml</p>
+            <p>Con tapa y bombilla</p>
+            <p>$630</p>
+            <input type="checkbox"><label for="agregar al carrito">Agregar al carrito</label>
+        </div>
+        <div class="tarjeta">
+            <img class="productot" src="/assets/imagenes/termostanley.jpg" alt="">
+            <h4>Termo Stanley</h4>
+            <p>Termo Stanley de acero inoxidable de 950mlt</p>
+            <p>$16999</p>
+            <input type="checkbox"><label for="agregar al carrito">Agregar al carrito</label>
+            </div>
+        <div class="tarjeta">
+            <img class="productot" src="/assets/imagenes/termoacero.jpg" alt="">
+            <h4>Termo Acero inoxidable</h4>
+            <p>Termo Acero Inoxidable, Marca Heizen, Con Manija, 1 Litro, Color Gris.</p>
+            <p>$3900</p>
+            <input type="checkbox"><label for="agregar al carrito">Agregar al carrito</label>
+        </div>
+        <div class="tarjeta">
+            <img class="productot" src="/assets/imagenes/termoplastico.jpg" alt="">
+            <h4>Termo Plastico</h4>
+            <p>Termo de plástico de 1lts con pico cebador a rosca.</p>
+            <p>$1500</p>
+            <input type="checkbox"><label for="agregar al carrito">Agregar al carrito</label>
+        </div>
+        <div class="tarjeta">
+            <img class="productot" src="/assets/imagenes/termoterere.jpg" alt="">
+            <h4>Termo Tereré</h4>
+            <p>Termo de plastico de 2,5lts, para bebidas frias.</p>
+            <p>Con tapa y bombilla</p>
+            <p>$3600</p>
+            <input type="checkbox"><label for="agregar al carrito">Agregar al carrito</label>
+        </div>
+        <div class="tarjeta">
+            <img class="productot" src="/assets/imagenes/bombilla espiral.jpg" alt="">
+            <h4>Bombilla Espiral</h4>
+            <p>$0000</p>
+            <input type="checkbox"><label for="agregar al carrito">Agregar al carrito</label>
+        </div>
+        <div class="tarjeta">
+            <img class="productot" src="/assets/imagenes/bombilla metal.jpg" alt="">
+            <h4>Bombilla Metal</h4>
+            <p>$0000</p>
+            <input type="checkbox"><label for="agregar al carrito">Agregar al carrito</label>
+        </div>
+        <div class="tarjeta">
+            <img class="productot" src="/assets/imagenes/bombilla pico loro.png" alt="">
+            <h4>Bombilla Alpaca</h4>
+            <p>$0000</p>
+            <input type="checkbox"><label for="agregar al carrito">Agregar al carrito</label>
+        </div>
+        <div class="tarjeta">
+            <img class="productot" src="/assets/imagenes/bombilla plana.jpg" alt="">
+            <h4>Bombilla Plana</h4>
+            <p>$0000</p>
+            <input type="checkbox"><label for="agregar al carrito">Agregar al carrito</label>
+        </div>
+    </div>
+    <script src="../js/productos.js"></script>
+</main>
