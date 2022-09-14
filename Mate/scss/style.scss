@@ -1,23 +1,21 @@
 /*Generales*/
 * {
-    box-sizing: border-box;
-    margin: 0;
+    margin: 0px;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
     background-color: #915831;
 }
 
-nav{
-    display: flex;
-    flex-direction: column;
-    background-color: #462A18;
-    text-align: center;
-    /*background-image: url(/assets/imagenes/fondo\ madera.jpg);*/
-        .logo{
-            max-width: 70px;
-        }
+header{
+    position: sticky;
+    top: 0px;
+    nav{
+        background-color: #462A18;
+        text-align: center;
+        /*background-image: url(/assets/imagenes/fondo\ madera.jpg);*/
         a{
             text-decoration: none;
             color: white;
@@ -26,12 +24,25 @@ nav{
             margin-top: 50px;
             margin-bottom: 20px;
         }
+        .logotitulo{
+            .lucero{
+                color: white;
+            }
+            .logo{
+                max-width: 70px;
+                }
+        }
+    }
 }
 
+
 footer{
-    position: fixed;
-    bottom: 0;
+    position: sticky;
     width: 100%;
+    bottom: 0;
+    background-color: #462A18;
+    color: white;
+    padding: 10px;
     .contenedorf{
         display: flex;
         flex-direction: row;
@@ -41,14 +52,12 @@ footer{
             width: 500px;
         }
     }
-    background-color: #462A18;
-    color: white;
-    padding: 10px;
     a{
         text-decoration: none;
         color: white;
     }
 }
+
 h1 {
     color: white;
     font-family: Delinda Agatha;
@@ -93,7 +102,6 @@ h2{
     margin-top: 40px;
     color: white;
     text-align: center;
-    margin-bottom: 20px;
     .titulosproductos{
         font-size: 35px;
         margin-left: 30px;
@@ -101,13 +109,23 @@ h2{
     }
     .contenedor{
         width: 100%;
-        max-width: 1500px;
-        height: 440px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         margin: auto;
         margin-bottom: 20px;
+        .divmate{
+            display: flex;
+            flex-direction: row;
+        }
+        .termos{
+            display: flex;
+            flex-direction: row;
+        }
+        .bombillas{
+            display: flex;
+            flex-direction: row;
+        }
         .tarjeta{
             width: 330px;
             height: 440px;
@@ -125,5 +143,5 @@ h2{
             max-width: 330px;
         }
     }
+    
 }
-

@@ -1,3 +1,4 @@
+/*
 let precioFinal = 0
 let productoElegido = parseInt(prompt(`Ingresa el número del producto que deseas comprar 1.Termo Stanley($16999) - 2.Termo Acero($3900) - 3.Termo Plastico($1500) - 4.Termo Terere($3600) - 5.Mate Stanley($11500) - 6.Mate Calabaza($9500) - 7.Mate Plastico($700) - 8.Mate Autocebante($630)`))
 let seguirComprando = true 
@@ -102,4 +103,73 @@ return valor
 }
 let valorDescuento = calcularDescuento(precioFinal)
 alert ('El precio final de la compra realizada es de: $' + valorDescuento)
+
+
+const parrafo = document.createElement ('h1')
+parrafo.innerText = "Gracias por elegirnos"
+const div = document.getElementById ('divp')
+div.append (parrafo)*/
+
+
+
+const AddMateStanley = document.getElementById ("AddMateStanley")
+AddMateStanley.onclick = () => {
+    console.log("Agregado al carrito correctamente")
+}
+
+const AddMateCalabaza = document.getElementById ("AddMateCalabaza")
+AddMateCalabaza.onclick = () => {
+    console.log("Agregado al carrito correctamente")
+}
+
+const AddMatePlastico = document.getElementById ("AddMatePlastico")
+AddMatePlastico.onclick = () => {
+    console.log("Agregado al carrito correctamente")
+}
+
+const AddMateAuto = document.getElementById ("AddMateAuto")
+AddMateAuto.onclick = () => {
+    console.log("Agregado al carrito correctamente")
+}
+
+const AddTermoStanley = document.getElementById ("AddTermoStanley")
+AddTermoStanley.onclick = () => {
+    console.log("Agregado al carrito correctamente")
+}
+
+const AddTermoAcero = document.getElementById ("AddTermoAcero")
+AddTermoAcero.onclick = () => {
+    console.log("Agregado al carrito correctamente")
+}
+
+const AddTermoPlastico = document.getElementById ("AddTermoPlastico")
+AddTermoPlastico.onclick = () => {
+    console.log("Agregado al carrito correctamente")
+}
+
+const AddTermoTerere = document.getElementById ("AddTermoTerere")
+AddTermoTerere.onclick = () => {
+    console.log("Agregado al carrito correctamente")
+}
+
+const AddBombillaEspiral = document.getElementById ("AddBombillaEspiral")
+AddBombillaEspiral.onclick = () => {
+    console.log("Agregado al carrito correctamente")
+}
+
+const AddBombillaMetal = document.getElementById ("AddBombillaMetal")
+AddBombillaMetal.onclick = () => {
+    console.log("Agregado al carrito correctamente")
+}
+
+const AddBombillaAlpa = document.getElementById ("AddBombillaAlpa")
+AddBombillaAlpa.onclick = () => {
+    console.log("Agregado al carrito correctamente")
+}
+
+const AddBombillaPlana = document.getElementById ("AddBombillaPlana")
+AddBombillaPlana.onclick = () => {
+    console.log("Agregado al carrito correctamente")
+}
+
 

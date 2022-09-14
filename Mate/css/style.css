@@ -1,25 +1,24 @@
 /*Generales*/
 * {
-  box-sizing: border-box;
-  margin: 0;
+  margin: 0px;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: #915831;
 }
 
-nav {
-  display: flex;
-  flex-direction: column;
+header {
+  position: sticky;
+  top: 0px;
+}
+header nav {
   background-color: #462A18;
   text-align: center;
   /*background-image: url(/assets/imagenes/fondo\ madera.jpg);*/
 }
-nav .logo {
-  max-width: 70px;
-}
-nav a {
+header nav a {
   text-decoration: none;
   color: white;
   font-size: 30px;
@@ -27,11 +26,17 @@ nav a {
   margin-top: 50px;
   margin-bottom: 20px;
 }
+header nav .logotitulo .lucero {
+  color: white;
+}
+header nav .logotitulo .logo {
+  max-width: 70px;
+}
 
 footer {
-  position: fixed;
-  bottom: 0;
+  position: sticky;
   width: 100%;
+  bottom: 0;
   background-color: #462A18;
   color: white;
   padding: 10px;
@@ -104,13 +109,23 @@ h2 {
 }
 .Mproductos .contenedor {
   width: 100%;
-  max-width: 1500px;
-  height: 440px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
   margin-bottom: 20px;
+}
+.Mproductos .contenedor .divmate {
+  display: flex;
+  flex-direction: row;
+}
+.Mproductos .contenedor .termos {
+  display: flex;
+  flex-direction: row;
+}
+.Mproductos .contenedor .bombillas {
+  display: flex;
+  flex-direction: row;
 }
 .Mproductos .contenedor .tarjeta {
   width: 330px;
