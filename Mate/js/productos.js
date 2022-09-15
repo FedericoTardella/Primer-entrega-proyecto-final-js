@@ -4,61 +4,9 @@ let productoElegido = parseInt(prompt(`Ingresa el número del producto que desea
 let seguirComprando = true 
 let decision
 let descuento
-let productos = []
-const carrito = []
-
-const termoStanley = {
-    nombre: 'Termo Stanley',
-    precio: 16999
-}
-productos.push(termoStanley)
-
-const termoAcero = {
-    nombre: 'Termo Acero',
-    precio: 3900
-}
-productos.push(termoAcero)
-
-const termoPlastico = {
-    nombre: 'Termo Plastico',
-    precio: 1500
-}
-productos.push(termoPlastico)
-
-const termoTerere = {
-    nombre: 'Termo Terere',
-    precio: 3600
-}
-productos.push(termoTerere)
-
-const MateStanley = {
-    nombre: 'Mate Stanley',
-    precio: 11500
-}
-productos.push(MateStanley)
-
-const MateCalabaza = {
-    nombre: 'Mate Calabaza',
-    precio: 9500
-}
-productos.push(MateCalabaza)
-
-const MatePlastico = {
-    nombre: 'Mate Plastico',
-    precio: 700
-}
-productos.push(MatePlastico)
-
-const MateAutocebante = {
-    nombre: 'Mate Autocebante',
-    precio: 630
-}
-productos.push(MateAutocebante)
 
 
-
-
-
+/*
     while(seguirComprando===true) {
 if(productoElegido === 1) {
     precioFinal = precioFinal + 16999
@@ -111,65 +59,119 @@ const div = document.getElementById ('divp')
 div.append (parrafo)*/
 
 
+const productos = []
+const carrito = []
+class producto {
+    constructor(nombre,precio){
+        this.nombre = nombre;
+        this.precio = precio;
+    }
+    
+}
 
-const AddMateStanley = document.getElementById ("AddMateStanley")
+let mateStanley = new producto ("Mate Stanley", 11500)
+let mateCalabaza = new producto ("Mate Calabaza", 9500)
+let matePlasttico = new producto ("Mate Plastico", 700,)
+let mateAutocebante = new producto ("mate Autocebante", 630)
+let termoStanley = new producto ("Termo Stanley", 16999)
+let termoAcero = new producto ("Termo Acero", 3900)
+let termoPlastico = new producto ("Termo Plastico", 1500)
+let termoTerere = new producto ("Termo Terere", 3600)
+
+productos.push (mateStanley, mateCalabaza, matePlasttico, mateAutocebante, termoStanley, termoAcero, termoPlastico, termoTerere)
+
+const AddMateStanley = document.getElementById ("1")
 AddMateStanley.onclick = () => {
-    console.log("Agregado al carrito correctamente")
+    const parrafo = document.createElement ('p')
+    parrafo.innerText = "Producto agregado al carrito correctamente"
+    const div = document.getElementById ('div1')
+    div.append (parrafo)
 }
-
-const AddMateCalabaza = document.getElementById ("AddMateCalabaza")
+const AddMateCalabaza = document.getElementById ("2")
 AddMateCalabaza.onclick = () => {
-    console.log("Agregado al carrito correctamente")
+    const parrafo = document.createElement ('p')
+    parrafo.innerText = "Producto agregado al carrito correctamente"
+    const div = document.getElementById ('div2')
+    div.append (parrafo)
 }
 
-const AddMatePlastico = document.getElementById ("AddMatePlastico")
+const AddMatePlastico = document.getElementById ("3")
 AddMatePlastico.onclick = () => {
-    console.log("Agregado al carrito correctamente")
+    const parrafo = document.createElement ('p')
+    parrafo.innerText = "Producto agregado al carrito correctamente"
+    const div = document.getElementById ('div3')
+    div.append (parrafo)
 }
 
-const AddMateAuto = document.getElementById ("AddMateAuto")
+const AddMateAuto = document.getElementById ("4")
 AddMateAuto.onclick = () => {
-    console.log("Agregado al carrito correctamente")
+    const parrafo = document.createElement ('p')
+    parrafo.innerText = "Producto agregado al carrito correctamente"
+    const div = document.getElementById ('div4')
+    div.append (parrafo)
 }
 
-const AddTermoStanley = document.getElementById ("AddTermoStanley")
+const AddTermoStanley = document.getElementById ("5")
 AddTermoStanley.onclick = () => {
-    console.log("Agregado al carrito correctamente")
+    const parrafo = document.createElement ('p')
+    parrafo.innerText = "Producto agregado al carrito correctamente"
+    const div = document.getElementById ('div5')
+    div.append (parrafo)
 }
 
-const AddTermoAcero = document.getElementById ("AddTermoAcero")
+const AddTermoAcero = document.getElementById ("6")
 AddTermoAcero.onclick = () => {
-    console.log("Agregado al carrito correctamente")
+    const parrafo = document.createElement ('p')
+    parrafo.innerText = "Producto agregado al carrito correctamente"
+    const div = document.getElementById ('div6')
+    div.append (parrafo)
 }
 
-const AddTermoPlastico = document.getElementById ("AddTermoPlastico")
+const AddTermoPlastico = document.getElementById ("7")
 AddTermoPlastico.onclick = () => {
-    console.log("Agregado al carrito correctamente")
+    const parrafo = document.createElement ('p')
+    parrafo.innerText = "Producto agregado al carrito correctamente"
+    const div = document.getElementById ('div7')
+    div.append (parrafo)
 }
 
-const AddTermoTerere = document.getElementById ("AddTermoTerere")
+const AddTermoTerere = document.getElementById ("8")
 AddTermoTerere.onclick = () => {
-    console.log("Agregado al carrito correctamente")
+    const parrafo = document.createElement ('p')
+    parrafo.innerText = "Producto agregado al carrito correctamente"
+    const div = document.getElementById ('div8')
+    div.append (parrafo)
 }
 
-const AddBombillaEspiral = document.getElementById ("AddBombillaEspiral")
+const AddBombillaEspiral = document.getElementById ("9")
 AddBombillaEspiral.onclick = () => {
-    console.log("Agregado al carrito correctamente")
+    const parrafo = document.createElement ('p')
+    parrafo.innerText = "Producto agregado al carrito correctamente"
+    const div = document.getElementById ('div9')
+    div.append (parrafo)
 }
 
-const AddBombillaMetal = document.getElementById ("AddBombillaMetal")
+const AddBombillaMetal = document.getElementById ("10")
 AddBombillaMetal.onclick = () => {
-    console.log("Agregado al carrito correctamente")
+    const parrafo = document.createElement ('p')
+    parrafo.innerText = "Producto agregado al carrito correctamente"
+    const div = document.getElementById ('div10')
+    div.append (parrafo)
 }
 
-const AddBombillaAlpa = document.getElementById ("AddBombillaAlpa")
+const AddBombillaAlpa = document.getElementById ("11")
 AddBombillaAlpa.onclick = () => {
-    console.log("Agregado al carrito correctamente")
+    const parrafo = document.createElement ('p')
+    parrafo.innerText = "Producto agregado al carrito correctamente"
+    const div = document.getElementById ('div11')
+    div.append (parrafo)
 }
 
-const AddBombillaPlana = document.getElementById ("AddBombillaPlana")
+const AddBombillaPlana = document.getElementById ("12")
 AddBombillaPlana.onclick = () => {
-    console.log("Agregado al carrito correctamente")
+    const parrafo = document.createElement ('p')
+    parrafo.innerText = "Producto agregado al carrito correctamente"
+    const div = document.getElementById ('div12')
+    div.append (parrafo)
 }
-
 
