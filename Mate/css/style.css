@@ -1,25 +1,24 @@
 /*Generales*/
 * {
-  box-sizing: border-box;
-  margin: 0;
+  margin: 0px;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: #915831;
 }
 
-nav {
-  display: flex;
-  flex-direction: column;
+header {
+  position: sticky;
+  top: 0px;
+}
+header nav {
   background-color: #462A18;
   text-align: center;
   /*background-image: url(/assets/imagenes/fondo\ madera.jpg);*/
 }
-nav .logo {
-  max-width: 70px;
-}
-nav a {
+header nav a {
   text-decoration: none;
   color: white;
   font-size: 30px;
@@ -27,11 +26,17 @@ nav a {
   margin-top: 50px;
   margin-bottom: 20px;
 }
+header nav .logotitulo .lucero {
+  color: white;
+}
+header nav .logotitulo .logo {
+  max-width: 70px;
+}
 
 footer {
-  position: fixed;
-  bottom: 0;
+  position: sticky;
   width: 100%;
+  bottom: 0;
   background-color: #462A18;
   color: white;
   padding: 10px;
@@ -54,11 +59,13 @@ h1 {
   color: white;
   font-family: Delinda Agatha;
   font-weight: normal;
+  text-align: center;
 }
 
 h2 {
   font-size: 40px;
   text-align: center;
+  font-family: Delinda Agatha;
 }
 
 /*Inicio*/
@@ -103,9 +110,7 @@ h2 {
   margin-top: 40px;
 }
 .Mproductos .contenedor {
-  width: 100%;
-  max-width: 1500px;
-  height: 440px;
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -127,4 +132,36 @@ h2 {
 }
 .Mproductos .contenedor .productot {
   max-width: 330px;
+}
+
+.maincontacto .titulocontacto {
+  font-size: 35px;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+.maincontacto .formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.maincontacto .formulario input {
+  width: 300px;
+  height: 30px;
+  border-radius: 30px;
+  text-align: center;
+}
+.maincontacto .formulario label {
+  margin-top: 5px;
+  color: white;
+}
+.maincontacto .formulario .botones {
+  display: flex;
+  flex-direction: column;
+}
+.maincontacto .formulario .boton {
+  margin-top: 10px;
+  width: 100px;
+  height: 30px;
+  border-radius: 30px;
 }/*# sourceMappingURL=style.css.map */

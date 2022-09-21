@@ -1,23 +1,21 @@
 /*Generales*/
 * {
-    box-sizing: border-box;
-    margin: 0;
+    margin: 0px;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
     background-color: #915831;
 }
 
-nav{
-    display: flex;
-    flex-direction: column;
-    background-color: #462A18;
-    text-align: center;
-    /*background-image: url(/assets/imagenes/fondo\ madera.jpg);*/
-        .logo{
-            max-width: 70px;
-        }
+header{
+    position: sticky;
+    top: 0px;
+    nav{
+        background-color: #462A18;
+        text-align: center;
+        /*background-image: url(/assets/imagenes/fondo\ madera.jpg);*/
         a{
             text-decoration: none;
             color: white;
@@ -26,12 +24,25 @@ nav{
             margin-top: 50px;
             margin-bottom: 20px;
         }
+        .logotitulo{
+            .lucero{
+                color: white;
+            }
+            .logo{
+                max-width: 70px;
+                }
+        }
+    }
 }
 
+
 footer{
-    position: fixed;
-    bottom: 0;
+    position: sticky;
     width: 100%;
+    bottom: 0;
+    background-color: #462A18;
+    color: white;
+    padding: 10px;
     .contenedorf{
         display: flex;
         flex-direction: row;
@@ -41,22 +52,22 @@ footer{
             width: 500px;
         }
     }
-    background-color: #462A18;
-    color: white;
-    padding: 10px;
     a{
         text-decoration: none;
         color: white;
     }
 }
+
 h1 {
     color: white;
     font-family: Delinda Agatha;
     font-weight: normal;
+    text-align: center;
 }
 h2{
     font-size: 40px;
     text-align: center;
+    font-family: Delinda Agatha;
 }
 
 /*Inicio*/
@@ -93,21 +104,19 @@ h2{
     margin-top: 40px;
     color: white;
     text-align: center;
-    margin-bottom: 20px;
     .titulosproductos{
         font-size: 35px;
         margin-left: 30px;
         margin-top: 40px;
     }
     .contenedor{
-        width: 100%;
-        max-width: 1500px;
-        height: 440px;
+        width: 80%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         margin: auto;
         margin-bottom: 20px;
+
         .tarjeta{
             width: 330px;
             height: 440px;
@@ -125,5 +134,41 @@ h2{
             max-width: 330px;
         }
     }
+    
 }
 
+//Contacto
+.maincontacto{
+    .titulocontacto{
+        font-size: 35px;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        input{
+            width: 300px;        
+            height: 30px;
+            border-radius: 30px;
+            text-align: center;
+        }
+        label{
+            margin-top: 5px;
+            color: white;
+        }
+        .botones{
+            display: flex;
+            flex-direction: column;
+        }
+        .boton{
+            margin-top: 10px;
+            width: 100px;        
+            height: 30px;
+            border-radius: 30px;
+        }
+        
+    }
+}
